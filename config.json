@@ -1,6 +1,6 @@
 {
     "url": "http://localhost:4567",
-    "secret": "08f9cfcf-6187-4367-87a1-383e12cd9ef2",
+    "secret": "f2becd5a-7a0e-40bd-aa13-f4ab93d17279",
     "database": "mongo",
     "mongo": {
         "host": "127.0.0.1",
@@ -8,7 +8,7 @@
         "username": "",
         "password": "",
         "database": "nodebb",
-        "uri": "mongodb://root:root@35.167.27.179:27017/forumdev"
+        "uri": "mongodb://root:root@35.167.27.179:27017/forum"
     },
     "port": "4567"
 }
