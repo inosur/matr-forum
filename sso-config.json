@@ -10,20 +10,20 @@
           "consumerSecret": ""
       },
       "oauth2": {
-          "authorizationURL": "",
-          "tokenURL": "",
-          "clientID": "",
-          "clientSecret": ""
+          "authorizationURL": "https://platform.matrproject.com/oauth",
+          "tokenURL": "https://api.matrproject.com/api/oauth/authorize/token",
+          "clientID": "zf7cqmcE47vsaFq5SNDD",
+          "clientSecret": "WVeu4N7hsf1hjxZ1sRAO"
       },
-      "userRoute": "", 
+      "userRoute": "https://api.matrproject.com/api/accounts/info?", 
       "scope":"read:user"
   },
   "profile": {
-      "id": "",
-      "displayName": "",
-      "emails": ""
+      "id": "_id",
+      "displayName": "displayName",
+      "emails": "emails"
   },
-  "loginUrl": "",
+  "loginUrl": "https://platform.matrproject.com/oauth",
   "registerUrl": "",
   "tokenIdField": ""
 }

@@ -72,6 +72,8 @@ Auth.reloadRoutes = function (callback) {
 
 				router.get(strategy.callbackURL, function (req, res, next) {
 					// Ensure the passed-back state value is identical to the saved ssoState
+					winston.warn(JSON.stringify(req.query.state));
+					winston.warn(JSON.stringify(req.session.ssoState));
 					next(req.query.state !== req.session.ssoState ? new Error('[[error:csrf-invalid]]') : null);
 				}, function (req, res, next) {
 					// Trigger registration interstitial checks

@@ -1,0 +1,14 @@
+{
+    "url": "http://forum.matrproject.com/",
+    "secret": "3f29804c-5fb5-4d4a-ac56-eb5cb46d4e39",
+    "database": "mongo",
+    "port": "4567",
+    "mongo": {
+        "host": "http://35.167.27.179",
+        "port": "27017",
+        "username": "root",
+        "password": "root",
+        "database": "forum",
+        "uri": "mongodb://forumUser:tLsr4xvitYnRHbzq@matr-shard-00-00-qajgf.mongodb.net:27017,matr-shard-00-01-qajgf.mongodb.net:27017,matr-shard-00-02-qajgf.mongodb.net:27017/forum?ssl=true&replicaSet=matr-shard-0&authSource=admin"
+    }
+}
